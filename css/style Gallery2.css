@@ -1,0 +1,145 @@
+body { 	
+		text-align: center;
+		font-family: Impact;
+		background-image:url("../images/BACKGROUND.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+a {	
+	text-decoration: Impact;
+	font-size: 30px;
+	font-size: 30px;
+	padding-bottom: 10px;
+	
+}
+
+.header {
+		color: white;
+}
+
+#main-menu{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid ;
+	grid-gap: 10px;
+	grid-template-columns: repeat(5,1fr);
+}
+.button1 {
+		background-image:url("../images/ICONS/gr.png");
+		background-size: 90px 90px;
+		padding: 15px 10px;
+		display: inline-block;
+		color: orange;
+		
+		
+}
+.button1:hover {
+		background-image:url("../images/ICONS/grS.png");
+		background-size: 90px 90px;
+		color: white;
+}
+.button2 {
+		background-image:url("../images/ICONS/jc.png");
+		background-size: 110px 90px;
+		background-repeat: no-repeat;
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		
+		
+}
+.button2:hover {
+		background-image:url("../images/ICONS/jcS.png");
+		background-size: 90px 80px;
+		color: white;
+}
+.button3 {
+		background-image:url("../images/ICONS/isa.png");
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+	
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		
+		
+}
+.button3:hover {
+		background-image:url("../images/ICONS/isaS.png");
+		background-size: 100px 90px;
+		background-repeat: no-repeat;
+		
+		color: white;
+}
+.button4 {
+		background-image:url("../images/ICONS/ez.png");
+		background-size: 110px 100px;
+		background-repeat: no-repeat;
+	
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		
+		
+}
+.button4:hover {
+		background-image:url("../images/ICONS/ezS.png");
+		background-size: 110px 90px;
+		background-repeat: no-repeat;
+		color: white;
+}
+.button5 {
+		background-image:url("../images/ICONS/corl.png");
+		background-size: 90px 85px;
+		background-repeat: no-repeat;
+	
+		color: orange;
+		padding: 15px 0px;
+		display: inline-block;
+		
+		
+}
+.button5:hover {
+		background-image:url("../images/ICONS/corlS.png");
+		background-size: 90px 85px;
+		background-repeat: no-repeat;
+		color: white;
+}
+
+.main-article {
+	padding: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}	
+.main-article-left {
+	padding:10px;
+	background: orange;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr, 1fr;
+	box-shadow: 0 0 5px #9f8260
+}
+.main-article-right {
+	padding:40px;
+	background: orange;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr, 1fr;
+	box-shadow: 0 0 5px #9f8260
+}
+#left-article-button{
+		color: red;
+		text-align: left;
+}
+.footer {
+	color:white;
+	padding:2px;
+	border: 2px #000 solid;
+	background: red;
+	margin-bottom: 0px; 
+}
